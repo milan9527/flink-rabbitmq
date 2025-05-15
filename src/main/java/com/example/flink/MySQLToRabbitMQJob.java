@@ -91,7 +91,7 @@ public class MySQLToRabbitMQJob {
                 .databaseList(database)
                 .tableList(database + "." + table)
                 .username("admin")
-                .password("wAr16dk7")
+                .password("your password")
                 .deserializer(new JsonDebeziumDeserializationSchema())
                 .startupOptions(StartupOptions.latest()) // Changed from initial() to latest() to capture only new changes
                 .debeziumProperties(debeziumProperties)
