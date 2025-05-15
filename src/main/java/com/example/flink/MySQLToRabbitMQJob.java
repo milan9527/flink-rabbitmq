@@ -119,7 +119,7 @@ public class MySQLToRabbitMQJob {
                 "b-d3c9e07d-8b26-4c74-a6d2-53b4fbfa330f.mq.us-east-1.on.aws",
                 5671,
                 "admin",
-                "wAr16dk7&UJM",
+                "Your Password",
                 rabbitMQExchange,
                 rabbitMQRoutingKey
         );
