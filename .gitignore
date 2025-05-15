@@ -1,0 +1,24 @@
+# Maven build files
+target/
+dependency-reduced-pom.xml
+
+# IDE files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Flink checkpoint files
+flink-checkpoints/
+
+# Local configuration files
+*.properties
